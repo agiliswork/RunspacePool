@@ -1,4 +1,8 @@
-﻿# Create a log file path with the current date appended
+# Dmitriy
+# Version: 2
+# Date: 2023-Dec
+
+ # Create a log file path with the current date appended
 $logFilePath = Join-Path $env:Temp "Log-$((Get-Date).ToString('ddMMyyyy'))"
 $throttleLimit = 50
 $taskCount = 50
